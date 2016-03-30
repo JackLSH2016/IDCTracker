@@ -1,0 +1,19 @@
+//
+//  IDCTracker.pch
+//  IDCTracker
+//
+//  Created by Jack on 18/1/2016.
+//  Copyright © 2016 idt. All rights reserved.
+//
+
+#ifndef IDCTracker_pch
+#define IDCTracker_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "TrackerCommon.h"
+
+
+
+#endif /* IDCTracker_pch */

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>data</key>
+		<array>
+			<string>Baby</string>
+			<string>Normal</string>
+			<string>Children</string>
+			<string>Elderly</string>
+		</array>
+		<key>title</key>
+		<string>用户类型</string>
+	</dict>
+	<dict>
+		<key>data</key>
+		<array>
+			<string>Normal</string>
+			<string>Menber of sensitive</string>
+			<string>Patient</string>
+		</array>
+		<key>title</key>
+		<string>健康状态</string>
+	</dict>
+	<dict>
+		<key>data</key>
+		<array>
+			<string>C</string>
+			<string>F</string>
+		</array>
+		<key>title</key>
+		<string>温度单位</string>
+	</dict>
+	<dict>
+		<key>data</key>
+		<array>
+			<string>3mins</string>
+			<string>5mins</string>
+			<string>15mins</string>
+			<string>30mins</string>
+			<string>1hr</string>
+			<string>3hr</string>
+		</array>
+		<key>title</key>
+		<string>提醒时间</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TrackerRegisterController">
+            <connections>
+                <outlet property="backUpEmail" destination="KGX-qx-mUL" id="2hD-ja-3Ze"/>
+                <outlet property="confirmPWDTF" destination="9yw-Pb-Ffd" id="Tow-3A-L57"/>
+                <outlet property="emailTF" destination="Xpn-G6-87y" id="l8C-HZ-Buh"/>
+                <outlet property="nickNameTF" destination="Awj-bh-4CY" id="xU4-ji-5JE"/>
+                <outlet property="passWordTF" destination="XRv-XT-20w" id="1YG-ia-BaG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入昵称" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Awj-bh-4CY">
+                    <rect key="frame" x="67" y="58" width="205" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入邮箱" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Xpn-G6-87y">
+                    <rect key="frame" x="67" y="110" width="205" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入备用邮箱" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="KGX-qx-mUL">
+                    <rect key="frame" x="66" y="161" width="206" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XRv-XT-20w">
+                    <rect key="frame" x="67" y="211" width="205" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入确认密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="9yw-Pb-Ffd">
+                    <rect key="frame" x="67" y="263" width="205" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VS-eM-kAe">
+                    <rect key="frame" x="66" y="339" width="71" height="30"/>
+                    <state key="normal" title="取消" backgroundImage="cancel register_.png"/>
+                    <state key="selected" backgroundImage="cancel register_when press_.png"/>
+                    <connections>
+                        <action selector="cancleBtnAciton:" destination="-1" eventType="touchUpInside" id="O3w-UH-jwF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHo-BV-7qb">
+                    <rect key="frame" x="207" y="340" width="65" height="30"/>
+                    <state key="normal" title="注册" backgroundImage="register button.png"/>
+                    <state key="selected" backgroundImage="register button_when press"/>
+                    <connections>
+                        <action selector="RegisterBtnAction:" destination="-1" eventType="touchUpInside" id="mXd-mY-KTp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.29630729459999999" green="1" blue="0.95383764589999998" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="413" y="264"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cancel register_.png" width="123" height="45"/>
+        <image name="cancel register_when press_.png" width="123" height="45"/>
+        <image name="register button.png" width="123" height="45"/>
+        <image name="register button_when press" width="12" height="13"/>
+    </resources>
+</document>

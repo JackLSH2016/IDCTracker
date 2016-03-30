@@ -1,0 +1,16 @@
+/* 
+  TrackString.strings
+  IDCTracker
+
+  Created by Jack on 19/1/2016.
+  Copyright © 2016 idt. All rights reserved.
+*/
+//登录界面
+
+//设置个人信息界面
+iconTitle = "头像";
+nameTitle = "昵称";
+telephoneTitle = "手机号";
+changgePasswordTitle = "修改密码";
+historicalTrack = "历史轨迹";
+

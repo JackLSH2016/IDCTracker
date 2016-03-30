@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "4KL-X2-V3I"; */
+"4KL-X2-V3I.normalTitle" = "cancle";
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "lEb-pj-Rpl"; */
+"lEb-pj-Rpl.normalTitle" = "confirm";
+
+/* Class = "UIButton"; normalTitle = "重发"; ObjectID = "me8-vM-a8u"; */
+"me8-vM-a8u.normalTitle" = "Get verification code";

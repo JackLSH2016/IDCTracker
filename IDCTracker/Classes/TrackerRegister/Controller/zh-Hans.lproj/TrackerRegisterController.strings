@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "0VS-eM-kAe"; */
+"0VS-eM-kAe.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "邮箱"; ObjectID = "2Jd-s2-Nkn"; */
+"2Jd-s2-Nkn.text" = "邮箱";
+
+/* Class = "UILabel"; text = "确认密码"; ObjectID = "5B1-bg-S22"; */
+"5B1-bg-S22.text" = "确认密码";
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "AHo-BV-7qb"; */
+"AHo-BV-7qb.normalTitle" = "注册";
+
+/* Class = "UILabel"; text = "昵称"; ObjectID = "JTK-ef-tWh"; */
+"JTK-ef-tWh.text" = "昵称";
+
+/* Class = "UILabel"; text = "密码"; ObjectID = "d4G-pz-Xg9"; */
+"d4G-pz-Xg9.text" = "密码";
+
+/* Class = "UILabel"; text = "备用邮箱"; ObjectID = "jCa-8l-wbA"; */
+"jCa-8l-wbA.text" = "备用邮箱";
